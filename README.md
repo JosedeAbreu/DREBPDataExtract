@@ -30,7 +30,7 @@ O diagrama abaixo exemplifica como a biblioteca navega pelo documento contábil 
 
 ```python
 import pandas as pd
-from extract_library import DREBPDataExtract
+from DREBPDataExtract import DREBPDataExtract
 
 # Carregar seu Excel/Relatório financeiro
 df_original = pd.read_excel("dre_2025.xlsx")
